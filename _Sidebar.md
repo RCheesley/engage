@@ -1,1 +1,1 @@
-TBD: Custom sidebar
+* [Home](https://github.com/akeeba/engage/wiki)
