@@ -1,5 +1,3 @@
-# Main Concepts
-
 Reading and understanding this document is NOT mandatory for using Akeeba Engage. 
 
 At a bare minimum you can blindly follow the instructions in the [[Installation and Setup Guide]]. Doing so will allow you to run comments on your articles in the categories you choose. That's enough for the blog / news section of a small business site or a blog site. 
