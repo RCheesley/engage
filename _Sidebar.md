@@ -19,3 +19,9 @@
     * [[The Emails plugin]]
     * [[The Gravatar plugin]]
     * [[The Akismet plugin]]
+    
+### Install, update and uninstall
+
+* [[Installing Akeeba Engage]]
+* [[Uninstalling Akeeba Engage]]
+* [[Updating Akeeba Engage]]
