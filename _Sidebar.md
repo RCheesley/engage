@@ -1,6 +1,14 @@
+### Quick Start
+
 * [[Home]]
 * [[Main Concepts]]
 * [[Installation and Setup guide]]
+
+### Install, update and uninstall
+
+* [[Installing Akeeba Engage]]
+* [[Uninstalling Akeeba Engage]]
+* [[Updating Akeeba Engage]]
 
 ### The component
 
@@ -19,9 +27,12 @@
     * [[The Emails plugin]]
     * [[The Gravatar plugin]]
     * [[The Akismet plugin]]
-    
-### Install, update and uninstall
+* [[Plugin development]]
 
-* [[Installing Akeeba Engage]]
-* [[Uninstalling Akeeba Engage]]
-* [[Updating Akeeba Engage]]
+## Frontend customisation
+
+* [[Structured data]]
+* [[Module positions]]
+* [[Setting up your HTML editor]]
+* [[Template overrides]]
+* [[Customising CSS]]
