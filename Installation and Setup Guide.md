@@ -81,7 +81,7 @@ You can edit this plugin to configure it. The default settings are very conserva
 
 ## Spam protection with Akismet
 
-This step is optional. It may incur fees on a third pary service which is unaffiliated with Akeeba Ltd.
+This step is optional. It may incur fees on a third party service which is unaffiliated with Akeeba Ltd.
 
 While CAPTCHAs are a great first line of defence against comment spam it's not necessarily effective against the more sophisticated spammers. They will hire actual people to solve CAPTCHAs for as little as a cent for ten CAPTCHAs. Therefore spam can still find its way into your comments.
 

@@ -20,7 +20,7 @@
 
 * [[The Content plugin]]
 * [[The User plugin]]
-* [[The System cache plugin ]]
+* [[The System cache plugin]]
 * [[The Action Log plugin]]
 * [[The Privacy and Data Compliance plugins]]
 * The Akeeba Engage plugins
@@ -31,8 +31,12 @@
 
 ## Frontend customisation
 
-* [[Structured data]]
 * [[Module positions]]
 * [[Setting up your HTML editor]]
 * [[Template overrides]]
 * [[Customising CSS]]
+
+## Additional information
+
+* [[Structured data]]
+* [[Accessibility]]
