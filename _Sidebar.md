@@ -32,6 +32,7 @@
 ## Frontend customisation
 
 * [[Module positions]]
+* [[Language overrides]]
 * [[Setting up your HTML editor]]
 * [[Template overrides]]
 * [[Customising CSS]]
