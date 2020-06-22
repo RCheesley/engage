@@ -15,9 +15,9 @@ This guide makes the following assumptions which are suitable for a blog site or
 
 ## Installation
 
-[Download](https://github.com/akeeba/engage/releases) the latest version of Akeeba Engage. 
+[Download](https://www.akeebabackup.com/download/official/engage.html) the latest version of Akeeba Engage. 
 
-It's a single ZIP file. If you are using Safari on macOS you might end up donwloading several files. If that happens _stop_ and configure Safari to NOT open downloaded files automatically.
+It's a single ZIP file. If you are using Safari on macOS you might end up downloading several files. If that happens _stop_ and configure Safari to NOT open downloaded files automatically.
 
 Log into the backend of your Joomla site as a Super User and go to Extensions, Manage, Install. Click on the Upload Package File tab. Drag and drop the downloaded ZIP file into the "Drag and drop file here to upload" area.
 
