@@ -34,6 +34,17 @@ Used when a comment manager is editing a comment.
 
 * `form.php`  The entire page displaying the comment editor.
 
+# Comments count summary (HTML)
+
+Used when displaying the comments count summary before or after an article displayed in the Featured Articles or Category Blog page in Joomla. These are rendered with Joomla layouts. The source files are in `plugins/content/engage/layouts/akeeba/engage/content` and their overrides need to placed in `templates/YOUR_TEMPLATE/html/layouts/akeeba/engage/content` where YOUR_TEMPLATE is the name of your site's template.
+
+There are two files:
+
+* `category.php` is used when Joomla is displaying a category in the Category Blog layout.
+* `featured.php` is used when Joomla is displaying a category in the Featured Articles layout.
+
+In both cases the layout file is used for each individual article displayed in Joomla's respective category page in the frontend. Please note that you _can not_ display a comments summary in the List layout for categories. It should be fairly obvious why: it's a table listing article titles, there's no space (or even a provision in Joomla's code) to display additional information there.
+
 # Be aware of the JavaScript
 
 Akeeba Engage uses a small but important amount of JavaScript to implement the Reply button and all comment management buttons such as edit, publish, unpublish etc. Make sure to keep the class names and IDs with an `akengage` or `engage` prefix. They are expected in the component's JavaScript.
