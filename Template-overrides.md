@@ -6,7 +6,7 @@ The HTML output can be overridden by means of _Template Overrides_. We recommend
 
 The following guide assumes that you are familiar with that basic Joomla concept.
 
-All frontend view templates shipped with Akeeba Engage can be found in `components/com_engage/ViewTemplates/Comments`.
+All frontend view templates shipped with Akeeba Engage can be found in `components/com_engage/tmpl/Comments`.
  
 Do NOT edit these files directly. They will overwritten when you update or re-install the component.
 
