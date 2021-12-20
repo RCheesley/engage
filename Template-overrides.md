@@ -12,7 +12,7 @@ Do NOT edit these files directly. They will overwritten when you update or re-in
 
 Instead, create a new folder `templates/YOUR_TEMPLATE/html/com_engage/Comments` where YOUR_TEMPLATE is the name of your site's template. Copy the files you want to customise in that folder and edit the files there.
 
-# Comments display (HTML)
+# Comments display
 
 Used when you are displaying comments in an HTML output page. That's what you most likely need to customize.
 
@@ -21,20 +21,13 @@ Used when you are displaying comments in an HTML output page. That's what you mo
 * `default_form.php`  New comment / reply form.
 * `default_login.php`  Login area when the form cannot be displayed due to unsufficient user permissions.
 
-# Comments display (AMP)
-
-Used when comments are displayed in the Accelerated Mobile Pages version of your site using the third party extension wbAMP.
-
-* `amp.php`  The main file used for comments display. This provides the outer structure of the comments area.
-* `amp_list.php` The comments list. This is the inner structure of the discussion.
-
-# Edit a comment (HTML)
+# Edit a comment
 
 Used when a comment manager is editing a comment.
 
 * `form.php`  The entire page displaying the comment editor.
 
-# Comments count summary (HTML)
+# Comments count summary
 
 Used when displaying the comments count summary before or after an article displayed in the Featured Articles or Category Blog page in Joomla. These are rendered with Joomla layouts. The source files are in `plugins/content/engage/layouts/akeeba/engage/content` and their overrides need to placed in `templates/YOUR_TEMPLATE/html/layouts/akeeba/engage/content` where YOUR_TEMPLATE is the name of your site's template.
 

@@ -17,6 +17,8 @@ This guide makes the following assumptions which are suitable for a blog site or
 
 [Download](https://www.akeebabackup.com/download/official/engage.html) the latest version of Akeeba Engage. 
 
+> **ATTENTION!** There are two versions, for Joomla 3 and Joomla 4. Make sure you select the correct one for your site.
+
 It's a single ZIP file. If you are using Safari on macOS you might end up downloading several files. If that happens _stop_ and configure Safari to NOT open downloaded files automatically.
 
 Log into the backend of your Joomla site as a Super User and go to Extensions, Manage, Install. Click on the Upload Package File tab. Drag and drop the downloaded ZIP file into the "Drag and drop file here to upload" area.
@@ -133,8 +135,6 @@ Go to Components, Akeeba Engage and click on Options. Click on the Text Filterin
 This configuration allows basic HTML formatting, lists, images, code, preformatted (monospace) text and blockquotes in comments regardless of Joomla text filter options. It is simultaneously very secure and practical.
 
 ## Further steps
-
-Akeeba Engage fully supports Accelerated Mobile Pages (AMP) through the third party [wbAMP](https://weeblr.com/joomla-accelerated-mobile-pages/wbamp) extension. Mobile visitors can see the comments in an article but submitting a comment or replying to an existing one requires them to visit the full site. AMP support can benefit the visibility of your site in search engines and is highly recommended.
 
 If you decide to disallow guest comments, Akeeba Engage can show a prompt to guest users to log in to file a comment. By default it will show a module published in the Login position. You can select a different module position or module to customise that experience.
 

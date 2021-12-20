@@ -106,14 +106,6 @@ We chose the Schema.org annotations and the microdata format for two reasons. Fi
 
 Akeeba Engage fully supports Joomla's [output overrides](https://docs.joomla.org/How_to_override_the_output_from_the_Joomla!_core) for view templates, CSS and JavaScript files. We even ship the [SCSS](https://sass-lang.com) source files of our styles so you can customise them to fit your site's color palette and theme.
 
-## Dark Mode
-
-Akeeba Engage fully supports Dark Mode in the frontend, the backend and emails. The CSS we provide with Akeeba Engage and the default email templates will automatically switch to a bright text on dark background when viewed on compatible devices and software when the system's theme is set to dark. This could be most browsers and major email applications like Apple Mail and Thunderbird on macOS / iOS / iPadOS / Windows / Linux when a dark system template is used.
-
-You can disable or perpetually enable dark mode for the front- or backend of Akeeba Engage in its Component Options. If you'd like to do the same for email templates you will have to edit them yourself. Due to the nature of emails and email templates it is currently not possible to include an option in the Component Options. 
-
-We strongly recommend leaving Dark Mode enabled with its default settings _as long as_ your site's front- and backend template support Dark Mode as well. If you are using the default Joomla 3 backend template (Isis) and / or the default Joomla 3 frontend template (Protostar) you can use [DarkMagic](https://github.com/nikosdion/darkmagic), a plugin written by our lead developer to enable Dark Mode for these Joomla system templates. 
-
 ## GDPR / CCPA compliance
 
 By definition, comments submitted by your users collect personally identifiable information (PII) such as the user's name and email address and IP address as well as any information volunteered by the user in the content of their comments.

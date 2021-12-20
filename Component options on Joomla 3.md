@@ -1,5 +1,3 @@
-**Joomla 3 users:** This page is for Joomla 4 only. Please refer to [[Component options on Joomla 3]].
-
 The options in the Akeeba Engage component itself allow you to modify how comments work but also where and who can comment by default.
 
 You can change these options by going to Components, Akeeba Engage and clicking on the Options button in the toolbar.
@@ -36,20 +34,6 @@ It is generally recommended that you set this limit between 20 and 50 comments p
 
 You may have noticed that there is no "None" option. If you don't want a CAPTCHA to be displayed at all set the “CAPTCHA for comments” option above to “— None Selected —”.
 
-**Guests must accept terms**. When enabled, guest users will be asked to check a box to accept your site's terms of service and / or privacy policy. If they do not check the box they are not allowed to post a comment.
-
-This may be required for compliance with the EU GDPR or similar legislation.
-
-You can customize the text of the checkbox in the Terms Checkbox Text option below.
-
-You can customize the error message the Guest users see when the do not check the box by making a frontend language override for the `COM_ENGAGE_COMMENTS_ERR_TOSACCEPT` language string.
-
-**Terms checkbox tex**. Enter the text which will be displayed in the checkbox the users will be required to check to post a comment. You can use full HTML and plugin codes.
-
-If left blank a generic, default text (see the `COM_ENGAGE_COMMENTS_FORM_LBL_ACCEPT` language key) will be used.
-
-**Comment area hidden by default**. Should the comment / reply area be hidden by default? If so, there will be a Leave Your Comment button in place of a comment / reply area. When the user clicks on that button (or on any comment's Reply button) the Leave Your Comment button disappears and the comment area is displayed. **This is bad User Experience which will confuse most people trying to leave a comment**. We do not recommend using this option.
-
 ### Default comment parameters
 
 These configuration options can be overriden in each content category and each content article. Before explaining what they do we should explain how they work.
@@ -67,12 +51,6 @@ This configuration concept mirrors how Joomla works with article, category and t
 **Comments interface**. Should comments be shown at all? For most sites it's recommended to set this to Hide in the component and Show only on specific categories where comments are relevant, e.g a blog section. The only obvious use case where a default Show setting makes sense is news sites.
 
 Please note that merely hiding the comments interface does not make it impossible for comments to be filed. An advanced user who bothers to read our code can in many cases guess the correct URL to submit a comment. Remember to set Allow new comments to No as well to make it impossible for any comments to be filed.
-
-**Summary on Featured display**. Should I display the number of comments posted for each article on Joomla's Featured Articles display?
-
-**Summary on Blog display**. Should I display the number of comments posted for each article on Joomla's Blog display?
-
-**Summary on Newsflash module**. Should I display the number of comments posted for each article rendered in Joomla's Newsflash module?
 
 **Comments ordering**. Comments are ordered by date and nesting level, in this order. This option determines how the comments should be ordered _by date_. Ascending means that the oldest comment is first. Descending means that the newest comment is first. It's strongly recommended that you use Ascending. Otherwise it becomes really confusing for a casual reader to figure out the conversation. Please note that only the _first (top)_ level of comments can be sorted by date descending. All other levels (second, third etc) are always sorted by date ascending. This is not a bug and won't change. If you _absolutely_ need replies to appear before what they are in reply to you can of course tell Akeeba Engage to limit itself to one comment level and set the order to descending. However, this is strongly discouraged because it's unintuitive for users and leads to misunderstandings.
 
@@ -132,9 +110,13 @@ To clarify: If you select “( Do not display )“ but _at the same time_ you ha
 
 **Maximum spam age**. Comments marked as spam filed this many days ago will be automatically deleted. This is a convenience option so you don't have to delete spam manually. The default is 15 days.
 
-**Load custom CSS**. By default, Akeeba Engage uses Bootstrap 5 CSS classes to style the comments in the frontend of your site. If you are using a template which does not use Bootstrap 5 classes enable this option. This will load the custom CSS file `media/com_engage/css/comments.css` (or its template override). You can take a look at our CSS and its SCSS source file to see how you can easily format comments yourself.
+**Inject CSS in AMP pages**. Only applies when viewing an article as an AMP page using the third party wbAMP component. When enabled, Akeeba Engage will inject the contents of the `media/com_engage/css/amp.css` file in the AMP page's head section to style the comments. Disable this if you have already entered custom CSS for comments in wbAMP. If you want to customise the CSS file instead please refer to [[Customising CSS]].
 
 **HTML Purifier inclusion**. Do not change unless we tell you to do otherwise. The default setting is Composer. On a normal site every setting for this option should work equally.
+
+**Dark Mode (administrator)**. Akeeba Engage comes with a default administrator theme which uses dark text on a bright background. It also ships with an optional theme which uses bright text on a dark background (Dark Mode). You can select when Dark Mode will be enabled. Auto will follow your browser's hint on whether Dark Mode should be enabled e.g. when the Operating System is set to a dark theme. Never turns off the Dark Mode theme completely. This is recommended for the deafult Joomla administrator template. Always only ever uses the Dark Mode theme; it's recommended for dark templates.
+
+**Dark Mode (frontend)**. Akeeba Engage comes with a default public comments display theme which uses dark text on a bright background. It also ships with an optional theme which uses bright text on a dark background (Dark Mode). You can select when Dark Mode will be enabled. Auto will follow your browser's hint on whether Dark Mode should be enabled e.g. when the Operating System is set to a dark theme. Never turns off the Dark Mode theme completely. This is recommended for sites whos template uses primarily a light background with dark text. Always only ever uses the Dark Mode theme; it's recommended for dark templates.
 
 ## Permissions
 

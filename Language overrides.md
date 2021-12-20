@@ -1,5 +1,11 @@
 Akeeba Engage uses the standard Joomla! language string system. Therefore you can override any text on the page using standard Joomla! language overrides.
 
+# Frontend and backend language strings
+
+For historical reasons, Joomla separates strings in frontend and backend. However, this separation doesn't have to do with where the strings are _displayed_, but rather where the strings are _stored_. For example, all plugin strings are backend (administrator) strings.
+
+When you are doing a template override make sure to check both the frontend _and_ backend strings if you cannot find what you are looking for.
+
 # Comments header
 
 There needs to be a special mention about the header language string above your comments. While the nominal language key is `COM_ENGAGE_COMMENTS_ARTICLE_HEADER_N_COMMENTS` you will see that the English language file that ships with Akeeba Engage defines three different language keys:

@@ -16,7 +16,17 @@ Copy all `.scss` files and the `sources` directory from `/media/com_engage/css` 
 
 Modify / customise the SCSS files. The files in the `sources` directory are includes, the `.scss` files in the main directory are the ones that needs to be compiled. Make sure your generated files have a `.css` extension (NOT `.min.css`). Joomla will be using them _instead of_ the files shipped with Akeeba Engage.
 
-The main SCSS files are as follows:
+## Akeeba Engage 3 and later
+
+In Akeeba Engage 3 and later (Joomla 4 only) the main SCSS files are as follows:
+* `backend.scss` Always loaded in the backend of your site. It's really only used to set up the component icon.
+* `comments.scss` Loaded in the frontend of your site when the Load Custom CSS option is enabled in the component's Options page. This file includes both light and dark mode CSS.
+
+Please note that Akeeba Engage 3 does not provide Dark Mode CSS for the backend of the site. Instead, it uses the standard Joomla 4 and Bootstrap 5 CSS classes. Any Dark Mode solution for the backend (e.g. the [DarkMagic plugin](https://github.com/nikosdion/DarkMagic)) will work with Akeeba Engage as well.
+
+## Akeeba Engage 2 and earlier
+
+In Akeeba Engage 2 (Joomla 3 and 4) the main SCSS files are as follows:
 
 * `amp.scss` Used for the AMP (Accelerated Mobile Pages) version of your site when using the third party wbAMP extension.
 * `backend.scss` Always loaded in the backend of your site. Implements both visual layout and the Light Mode colors.
