@@ -121,3 +121,10 @@ Please note that compliance with privacy legislation is a legal requirement. You
 Sites with more than one administrator tend to find an audit log, a place where a summary of each user's administrative actions is kept, rather useful. In some business sectors it may even be mandatory e.g. for regulatory compliance or as a requirement for your quality assurance assessment (e.g. the ISO 9000 family of certifications). 
 
 Joomla itself provides a very handy tool called User Actions Log. Akeeba Engage fully supports it through an optional plugin. The plugin is installed but not activated when you install Akeeba Engage. You can even configure if you only want administrative functions to be logged or if you want to go to finer levels of detail up to and including logging when a guest user submits a comment.
+
+## How comments are rendered
+
+The comments are rendered by the Content – Akeeba Engage plugin responding to Joomla's `onContentAfterDisplay` event. 
+
+If you are using a third party template, a template override for com_content or a third party page builder this event _may have been disabled_. In this case you will not see the Akeeba Engage comments. You will have to re-enable this event in the template override or your page builder extension. Some examples (we update them as we find out about third party extensions and templates not playing nicely with Akeeba Engage):
+* [YooTheme Pro page builder](https://yootheme.com/support/question/137639)
