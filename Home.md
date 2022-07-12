@@ -12,7 +12,7 @@ Akeeba Engage is an extension for sites powered by the Joomla!™ CMS. It makes 
 
 You can find the download links at the top of the page.
 
-You can receive community support through the [Discussions tab](https://github.com/akeeba/engage/discussions) of Akeeba Engage's GitHub repository. Kindly note that this is meant to server as a place where users of Akeeba Engage help each other, in a way similar to how Stack Overflow works. We may pop in from time to time to give an answer — especially at the beginning when the volume of discussions is pretty low — but our involvement in these discussions is not guaranteed. Thank you for your understanding!
+You can receive community support through the [Discussions tab](https://github.com/akeeba/engage/discussions) of Akeeba Engage's GitHub repository. Kindly note that this is meant to serve as a place where users of Akeeba Engage help each other, in a way similar to how Stack Overflow works. We may pop in from time to time to give an answer — especially at the beginning when the volume of discussions is pretty low — but our involvement in these discussions is not guaranteed. Thank you for your understanding!
 
 ## First steps
 
