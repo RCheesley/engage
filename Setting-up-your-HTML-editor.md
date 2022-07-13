@@ -33,7 +33,7 @@ JCE has user profiles just like Joomla's TinyMCE editor — in fact, it was the 
 
 You MUST create a profile for Guest and Registered users.
 
-Assuming that you are suing the default JCE configuration, go to Components, JCE Editor, Profiles. 
+Assuming that you are using the default JCE configuration, go to Components, JCE Editor, Profiles. 
 
 Click on New.
 
