@@ -115,7 +115,7 @@ By default, Akeeba Engage only logs administrative functions. You can edit the p
 
 Akeeba Engage is able to send notification emails to comments administrators when their action is required and to users when they receive a reply to their comments. You can control these features by editing the “Akeeba Engage – Emails” plugin.
 
-The emails are sent with rich HTML templates. You can edit the email templates by going to Components, Akeeba Engage and clicking on the Email Templats tab.
+The emails are sent with rich HTML templates. You can edit the email templates by going to Components, Akeeba Engage and clicking on the Email Templates tab.
 
 ## Comment formatting and how not to lose it
 
